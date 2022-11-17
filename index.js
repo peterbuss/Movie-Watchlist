@@ -60,7 +60,7 @@ function getAPI(event) {
 
     let html_str = '';
 
-    let url='http://www.omdbapi.com/?apikey=' + apikey + '&s=' + searchBar.value;
+    let url='https://www.omdbapi.com/?apikey=' + apikey + '&s=' + searchBar.value;
     console.log("fetch url is: " + url);
     searchBar.value = '';
 
@@ -98,7 +98,7 @@ function getAPI(event) {
 
 
                     //if(data.Search[i].Type === 'movie') {  // data.Search[i].Type === 'movie'
-                        url='http://www.omdbapi.com/?apikey=' + apikey + '&i=' + data.Search[i].imdbID;
+                        url='https://www.omdbapi.com/?apikey=' + apikey + '&i=' + data.Search[i].imdbID;
                         console.log("inner fetch url: " + url);
 
                         fetch(url)
