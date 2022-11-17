@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+#top-frame {
+    position: relative;
+    width: 550px;
+    height: 208px;
+    background-image: url(./images/BackgroundTop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#bottom-frame {
+    /* position: relative; */
+    width: 550px;
+    height: 572px; 
+    background-image: url(./images/FilmBG.png);
+    opacity: 0.3;
+    background-repeat: no-repeat;   
+    background-position: center;
+    background-size: 220px; 
+ 
+/* 	display: flex;
+	flex-wrap: wrap;
+	align-content: space-evenly; 
+	gap: 0;  */
+/* 	margin: 0;
+	padding: 0;
+    overflow: auto; */
+    overflow: scroll;
+    margin-top: 4em;
+}
+
+input {
+    background-image: url(./images/mglass.png);
+    background-repeat: no-repeat;
+    background-size: 13px;
+    background-position: 10px center;
+    width: 60%;
+    height: 2.0em;
+    position: absolute;
+    border-radius: 5px;
+    top: 12.1em;
+    left: 3.8em;
+    margin-top: 0em;
+    margin-left: 0;
+    font-size: 1em;
+}
+
+#search-button {
+    position: absolute;
+    height: 2.4em;
+    width: 8em;
+    top: 14.6em;
+    left: 29.2em;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.heading {
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    font-size: 2.0em;
+    
+    margin-top: 2.0em;
+}
+
+#to-watchlist {
+ text-decoration: none;
+ color: white;
+ margin-top: 3.5em;
+}
+
+#watchlist {
+    position: relative;
+    width: 550px;
+    height: 572px;
+    background-image: url(./images/plusSign.png);
+    background-repeat: no-repeat;   
+    background-position: left;
+    background-size: 20em;
+
+    border: 1px solid gray;
+}
+
+.watchlist-msg {
+    position: absolute;
+    left: 8em;
+    top: 14em;
+    opacity: 0.3;
+}
+
+.add-movies {
+    position: absolute;
+    text-decoration: none;
+    left: 11em;
+    top: 17.1em;
+    color: black;
+    font-weight: 600;
+}
+
+/* Styling for dynamic content of bottom-frame */
+.main-frame {
+	display: flex;
+	border-bottom: 1px solid lightgray;
+	height: 260px;
+	margin: 0;
+}
+
+.right-side {
+	display: flex;
+	flex-direction: column;
+}
+
+.title-line {
+	display: flex;
+	
+}
+
+.movie-poster {
+    width: 100px;
+    height: 148px;
+    margin: 2em 2em 0 0;
+}
+
+
+.movie-title {
+	margin: 2em 1em 0 0;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+.rating-star {
+	width: 1em;
+	height: 1em;
+	margin-top: 2.8em;
+	margin-bottom: 0;
+}
+
+.movie-rating {
+	margin-top: 2.8em;
+	margin-bottom: 0;
+}
+
+.select-line {
+	display: flex;
+	
+}
+
+.duration {
+	margin: 1em 1em 1em 0;
+	
+}
+
+.genre {
+	margin: 1em 1em 1em 0;
+}
+
+.movie-plus {
+	width: 1em;
+	height: 1em;
+	margin-top: 1.2em;
+	margin-bottom: 0;
+	margin-right: 0.3em;
+}
+
+.movie-atag {
+	color: black;
+	text-decoration: none;
+	margin-top: 1em;
+	margin-bottom: 0;	
+}
+
+.plot {
+	margin-top: 0;
+
+}
+

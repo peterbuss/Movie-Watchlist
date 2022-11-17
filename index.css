@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+   
+    margin: 0 auto;
+    background-color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+
+
+
+p {
+    margin: 0;
+}
+
+
+img {
+    width: 15vh;
+  
+}
+
+
+/* topography */
+.title {
+    margin: 2em 1em 0 0;
+    font-weight: 800;
+    font-size: 20px;
+    
+    color: #000000;
+}
+.movie-plot {
+    color: #6b7280;
+    font-size: 1em;
+    line-height: 1.1rem;
+    margin-top: 1em;
+}
+
+.movie-genre {
+    font-size: 1em;
+}
+
+.search {
+    text-align: center;
+    display: flex;
+    width: 40%;
+    border: 1px solid black;
+    margin: 0 auto;
+    justify-content: center;
+    position: relative;
+}
+
+.watchlist-btn p {
+    margin-left: 2px;
+}
+
+h3 {
+    margin: 0;
+}
+
+.movie-rating {
+    font-size: 1em;
+    margin-top: 2.5em;
+}
+
+.rating-star {
+	width: 1.3em;
+	height: 1.3em;
+	margin-top: 2.4em;
+	margin-bottom: 0;
+}
+
+input {
+    width: 80%;
+    height: 2.0em;
+    border-radius: 5px;
+    position: absolute;
+    left: 0em;
+    top: -1em;
+    /* width: 80%;
+    height: 100%; */
+    /* background-color: #f9fafbd6; */
+    /* border: rgba(128, 128, 128, 0.76); */
+    /* padding: 1em 0 1em 0; */
+    margin-bottom: 1em;
+    margin: 0;
+}
+
+
+.search button {
+    position: absolute;
+    left: 19em;
+    top: -1em;
+    border: none;
+    background-color: #F9FAFB;
+    width: 30%;
+    height: 2em;
+    border: 1px solid black;
+    border-left: none;
+    border-radius: 5px;
+}
+
+.search-bar {
+    background-image: url(./images/mglass.png);
+    background-repeat: no-repeat;
+    background-position:left top;  
+    padding-left:15px;
+}
+
+.movie-genre button {
+    background-color: inherit;
+    border: none;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 50%;
+    font-weight: 600;
+}
+
+.movie-genre button ,.search button:hover {
+    cursor: pointer;
+}
+
+.watchlist-btn {
+    letter-spacing: .5px;
+}
+
+.watch {
+    margin-left: 2px;
+}
+
+
+
+/* layout */
+
+
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.watchlist {
+    display: flex;
+    align-items: center;
+    margin-top: 2.2em;
+}
+
+.to-watchlist {
+    text-decoration: none;
+    color: white;
+}
+
+.to-search {
+    text-decoration: none;
+    color: white;
+}
+
+.top-part {
+    position: relative;
+    width: 550px;
+    height: 208px;    
+    padding: 5em;
+    display: flex;
+    border: 2px solid ;
+    justify-content: space-between;
+    color: white;
+    font-weight: 800;
+    margin: 0 auto;
+    
+    background-image: url(./images/BackgroundTop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.movie-info {
+    display: flex;
+    align-items: start;
+}
+.movie-info-wrapper {
+    margin-top: -2em;
+    margin-left: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.search-results {
+    background-image: url(./images/FilmBG.png);
+    opacity: 0.3;
+    background-repeat: no-repeat;   
+    background-position: center;
+    background-size: 220px; 
+    width: 550px;
+    height: 572px; 
+    /* width: 80%; */
+    margin: 0 auto;
+    /* height:148px; */
+    margin-top: 5em;
+}
+
+.current-movie {
+    display: flex;
+    border-top: 1.5px solid #e5e7eb;
+    margin: 0;
+    justify-content: flex-start;
+    padding: 1em;
+   
+}
+
+.movie-genre {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-top: 1em;
+    align-items: center;
+
+   
+}
+
+.watchlist-msg {
+    position: absolute;
+    left: 23em;
+    top: 25em;
+    opacity: 0.3;
+}
+
+.add-movies {
+    position: absolute;
+    text-decoration: none;
+    left: 26em;
+    top: 28em;
+    color: black;
+    font-weight: 600;
+}
+
+.wl-button {
+    position: absolute;
+    top: 33.7em;
+    left: 29em;
+    
+    border: none;
+    border-radius: 50%;
+    color: white;
+    background: #363636;
+}
+
+.delete-btn {
+    position: absolute;
+    top: 18em;
+    left: 34em;
+    border-radius: 5px;
+    border: 1px solid #363636;
+}
+
+
+
